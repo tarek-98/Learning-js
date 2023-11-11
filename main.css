@@ -1,0 +1,95 @@
+#my-div
+{
+    font-size: 20px;
+}
+.st
+{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #333;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+/* body {
+    background-color: #eee;
+} */
+ul {
+    padding: 0;
+    margin: 0;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ul li.active,
+ul li:hover {
+    opacity: 1;
+}
+ul li:first-child {
+    background-color: red;
+}
+ul li:nth-child(2) {
+    background-color: green;
+}
+ul li:nth-child(3) {
+    background-color: blue;
+}
+ul li:nth-child(4) {
+    background-color: black;
+}
+.experiment {
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+/*bomchallnge*/
+.container
+{
+    padding-top: 150px;
+    text-align: center;
+}
+.container .form,
+.container .tasks
+{
+    background-color: #eee;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.container .form input:nth-child(1),
+.container .form input:nth-child(2)
+{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+    color: white;
+}
+.container .form input:nth-child(1)
+{
+    background-color: white;
+    color: black;
+}
